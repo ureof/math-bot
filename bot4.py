@@ -4,7 +4,7 @@ from sympy.parsing.sympy_parser import parse_expr, standard_transformations, imp
 import re
 
 # توکن ربات
-BOT_TOKEN = '7799600612:AAETLSphASwA8_OWHBAVe2B2aB7N6l5uB5E'
+BOT_TOKEN = '7799600612:AAHg-1VCIhBKP2aq_bh9VU3ccV97VQvfO9w'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # پیام خوش‌آمدگویی (/start)
@@ -244,4 +244,5 @@ def ignore_group(message):
 
 if __name__ == '__main__':
     print("ربات ریاضی شروع شد...")
+
     bot.infinity_polling()
